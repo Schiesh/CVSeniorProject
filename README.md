@@ -1,6 +1,6 @@
 # CVSeniorProject
 ## Computer Vision Senior Project
-#### by Russell Schiesser and Garrett Sparks
+#### by [Russell Schiesser](https://github.com/Schiesh) and [Garrett Sparks](https://github.com/CheekCheeks)
 ---
 ## Abstract
 ---
