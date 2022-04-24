@@ -1,5 +1,6 @@
 # CVSeniorProject
 ## Computer Vision Senior Project
+## Empty Parking Space Detection Using OpenCV
 #### by [Russell Schiesser](https://github.com/Schiesh) and [Garrett Sparks](https://github.com/CheekCheeks)
 ---
 ## Abstract
