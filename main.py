@@ -19,7 +19,7 @@ def openFileDirectory():
 # Opens the file dialogue and allows user to select what parking lot file they want to view
 def chooseViewFile():
     global viewFilePath
-    homeWindow.viewFile = filedialog.askopenfilename(title="Select the viewing file", initialdir=homeWindow.directory, filetypes=(('Image files', '*.img'), ('mp4 files', '*.mp4')))
+    homeWindow.viewFile = filedialog.askopenfilename(title="Select the viewing file", initialdir=homeWindow.directory, filetypes=(('image files', '*.img'), ('mp4 files', '*.mp4')))
     viewFilePath = str(homeWindow.viewFile)
     viewFileLabel = Label(homeWindow, text=homeWindow.viewFile, fg="black").grid(row=7, column=2)
 
@@ -30,7 +30,7 @@ def getViewFile():
 # Opens the file dialogue for choosing a configure file.
 def chooseConfigureFile():
     global configureFilePath
-    homeWindow.configureFile = filedialog.askopenfilename(title="Select the configuration file", initialdir=homeWindow.directory)
+    homeWindow.configureFile = filedialog.askopenfilename(title="Select the configuration file", initialdir=homeWindow.directory, filetypes=(('image files', '*.png'),('image files', '*.jpg') ))
     configureFilePath = str(homeWindow.configureFile)
     configureFileLabel = Label(homeWindow, text=homeWindow.configureFile, fg="black").grid(row=8, column=2)
 
